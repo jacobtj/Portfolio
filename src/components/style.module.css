@@ -1,0 +1,191 @@
+.header {
+    font-family: 'Brush Script MT', cursive; 
+    text-align: center;
+    color: black;
+}
+
+.tabText {
+    vertical-align: text-top;
+    font-size: 11pt;
+}
+
+.page1 {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border-radius: 15px;
+
+    width: 25%;
+    height: 55%
+}
+
+.page2 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    right: 0%;
+    bottom: 0;
+    z-index: 1;
+    background-color: white;
+    border-radius: 15px;
+
+    width: 25%;
+    height: 55%
+}
+
+.aboutTabActive {
+    position: absolute;
+    top: 40%;
+    left: 73.2%;
+    right: 0%;
+    bottom: 0;
+    z-index: 2;
+    transform: rotate(90deg);
+    background-color: rgb(247, 178, 178);
+    border-radius: 5px;
+
+    width: 5%;
+    height: 5%
+}
+
+.aboutTab {
+    position: absolute;
+    top: 40%;
+    left: 73.2%;
+    right: 0%;
+    bottom: 0;
+    z-index: 0;
+    transform: rotate(90deg);
+    background-color: rgb(247, 178, 178);
+    border-radius: 5px;
+
+    width: 5%;
+    height: 5%
+}
+
+.expTabActive {
+    position: absolute;
+    top: 51%;
+    left: 73.2%;
+    right: 0%;
+    bottom: 0;
+    z-index: 2;
+    transform: rotate(90deg);
+    background-color: rgb(233, 192, 116);
+    border-radius: 5px;
+    width: 5%;
+    height: 5%
+}
+
+.expTab {
+    position: absolute;
+    top: 51%;
+    left: 73.2%;
+    right: 0%;
+    bottom: 0;
+    z-index: 0;
+    transform: rotate(90deg);
+    background-color: rgb(233, 192, 116);
+    border-radius: 5px;
+    width: 5%;
+    height: 5%
+}
+
+.projTabActive {
+    position: absolute;
+    top: 62%;
+    left: 73.2%;
+    right: 0%;
+    bottom: 0;
+    z-index: 2;
+    transform: rotate(90deg);
+    background-color: rgb(139, 233, 144);
+    border-radius: 5px;
+    width: 5%;
+    height: 5%
+}
+
+.projTab {
+    position: absolute;
+    top: 62%;
+    left: 73.2%;
+    right: 0%;
+    bottom: 0;
+    z-index: 0;
+    transform: rotate(90deg);
+    background-color: rgb(139, 233, 144);
+    border-radius: 5px;
+    width: 5%;
+    height: 5%
+}
+
+.skillsTabActive {
+    position: absolute;
+    top: 73%;
+    left: 73.2%;
+    right: 0%;
+    bottom: 0;
+    z-index: 2;
+    transform: rotate(90deg);
+    background-color: rgb(142, 212, 229);
+    border-radius: 5px;
+    width: 5%;
+    height: 5%
+}
+
+.skillsTab {
+    position: absolute;
+    top: 73%;
+    left: 73.2%;
+    right: 0%;
+    bottom: 0;
+    z-index: 0;
+    transform: rotate(90deg);
+    background-color: rgb(142, 212, 229);
+    border-radius: 5px;
+    width: 5%;
+    height: 5%
+}
+
+.toad {
+    width: 40%;
+    height: 40%;
+}
+
+.keyboard {
+    opacity: 1;
+    width: 20%;
+    height: auto;
+}
+
+.pen {
+    width: 20%;
+    height: auto;
+    float: right;
+}
+
+.teacup {
+    width: 15%;
+    height: auto;
+    float: left;
+}
+
+.activeTab {
+    background: white;
+    border-bottom: 1px solid transparent;
+}
+
+.tab{
+    background: white;
+}
+
+.activeContent {
+    display: block;
+}
+
+.content {
+    display: none;
+}
